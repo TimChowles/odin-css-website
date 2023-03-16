@@ -1,0 +1,264 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    overflow: scroll;
+    color: #DDDDDD;
+}
+
+.section-one{
+    background-color: #222222;
+    padding: 40px 160px;  
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 12.453px; 
+}
+
+.header-ul{
+    margin: 0px;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bio{
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.text-main-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.text-bold-one{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text-sub-one{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-button{
+    border: 1px;
+    border-radius: 8px;
+    background-color: #414141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 35px;
+}
+
+img{
+    border: 1px ;
+    border-radius: 16px;
+    width: 600px;
+    height: 250px;
+}
+
+.section-two{
+    background-color: #525252;
+    padding: 25px;
+}
+
+.text-main-two{
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.image-two-string{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.color-cards{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.light-grey{
+    border-radius: 8px;
+    background-color: #999999;
+    width: 200px;
+    height: 150px;
+}
+
+.semi-light-grey{
+    border-radius: 8px;
+    background-color: #777777;
+    width: 200px;
+    height: 150px;
+}
+
+.grey{
+    border-radius: 8px;
+    background-color: #333333;
+    width: 200px;
+    height: 150px;
+}
+
+.dark-grey{
+    border-radius: 8px;
+    background-color: #111111;
+    width: 200px;
+    height: 150px;
+}
+
+.color-cards{
+    gap: 25px;
+}
+
+.card-01{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 215px;
+}
+
+.card-02{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 215px;
+}
+
+.card-03{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 215px;
+}
+
+.card-04{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 215px;
+}
+
+.section-three{
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-main-three{
+    width: 700px;
+    color: #555555;
+    font-size: 36px;
+    font-style: italic;
+    padding: 25px;
+}
+
+.author{
+    font-size: 20px;
+    color: #555555;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-four{
+    background-color: #525252;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold{
+    font-size: 28px;
+}
+
+.low-bold,
+.action-button{
+    font-size: 16px;
+}
+
+.action-button{
+    border: 1px;
+    border-radius: 10px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    padding: 25px;
+    gap: 30px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-sign{
+    border: 1px solid #E4E4E4 ;
+    border-radius: 10px;
+    width: 175px;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px ;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
